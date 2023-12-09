@@ -30,11 +30,11 @@ const Logo: React.FC = () => {
         <StyledLogoContainer className="mx-20">
           <div>
             <a href="/" className="text-white hover:text-gray-300 inline-block">
-              <Image src={logoImage} alt="Logo" width={125} height={125} quality={100}/>
+              <Image src={logoImage} alt="Logo" width={150} height={150} quality={100}/>
             </a>
           </div>
-          <div>
-            <a href='/' className='text-center text-white border p-2 rounded-15'>
+          <div className=''>
+            <a href='/' className='text-center border text-white hover:text-gray-800 hover:bg-gray-300 rounded-md p-2'>
               Get a Quote!
             </a>
           </div>
